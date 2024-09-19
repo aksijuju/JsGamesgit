@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="stone paper scissor.css">
+    <title>Stone Paper Scissor</title>
+</head>
+<body>
+    <h1 id="main">Stone Paper Scissor</h1>
+    
+    <div class="computer">
+        <img id= "computerchoice" src="stone.png">
+    </div>
+    <div class="US">
+        <h1>COMPUTER:<h1 id="computerscore">0</h1></h1>
+    </div>
+
+    <div class="user">
+        <img id= "userchoice" src = "stone.png">
+    </div>
+    <div class="com">
+        <h1>USER:<h1 id="yourscore">0</h1></h1>
+    </div>
+
+    <div class="choice">
+        <img class="cho" src = "stone.png" onclick="displayuser('stone.png')">
+        <img class="cho" src = "paper.png" onclick="displayuser('paper.png')">
+        <img class="cho" src = "scissor.png" onclick="displayuser('scissor.png')">
+    </div>
+
+    <script src="./stone paper scissor.js"></script>
+</body>
+</html>
