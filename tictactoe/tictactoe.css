@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: red;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.btn-container {
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 10vmin;
+    cursor: pointer;
+}
+
+#resetbtn {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#win-p {
+    color: blue;
+    font-size: 6vmin;
+}
+
+.hide {
+    display: none;
+}
